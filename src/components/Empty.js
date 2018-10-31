@@ -3,7 +3,7 @@ import './Empty.css';
 
 const Empty = ({user}) => {
     const {name, profile_pic, status} = user;
-    const first_name = name.split(' ' [0]);
+    const first_name = name.split(' '[0]);
     return (
         <div className="Empty">
             <h1 className="Empty__name">Welcome, {first_name}</h1>

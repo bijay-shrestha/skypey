@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import store from '../store';
 import {setTypingValue, sendMessage} from '../actions/action';
 import './MessageInput.css';

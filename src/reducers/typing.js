@@ -1,4 +1,3 @@
-import store from "../store";
 import {SET_TYPING_VALUE, SEND_MESSAGE} from "../actions/constants/action-types";
 
 export default function (state = "", action) {
